@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer's Banking</title>
+    <style>
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #2d6a4f;
+    padding: 1rem 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.navbar ul li a.active, .navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.banking-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.banking-container h1 {
+    color: #2d6a4f;
+    margin-bottom: 1rem;
+}
+
+.banking-options {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.option {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.option h2 {
+    color: #2d6a4f;
+    margin-bottom: 0.5rem;
+}
+
+.option p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2d6a4f;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #1b4631;
+}
+
+/* Footer */
+footer {
+    background-color: #2d6a4f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="banking.html" class="active">Banking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="banking-container">
+        <h1>Welcome to Farmer's Banking Services</h1>
+        <p>Get easy access to banking facilities tailored for farmers, including loans, interest rates, and more.</p>
+        
+        <div class="banking-options">
+            <div class="option">
+                <h2>Apply for a Loan</h2>
+                <p>Get financial support for your farming needs. Choose from a variety of loan options.</p>
+                <a href="loan-application.html" class="btn">Apply Now</a>
+            </div>
+            <div class="option">
+                <h2>Interest Rates</h2>
+                <p>Check the latest interest rates on savings, loans, and more.</p>
+                <a href="interest-rates.html" class="btn">View Rates</a>
+            </div>
+            <div class="option">
+                <h2>Banking Partners</h2>
+                <p>Find the best banks offering services specially designed for farmers.</p>
+                <a href="partners.html" class="btn">Explore Partners</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 FarmBaseOne. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
